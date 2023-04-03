@@ -21,8 +21,8 @@ inquirer.prompt([
     {
         name : 'shape',
         message : 'please select a shape',
-        input : 'list',
-        choices : ['circle', 'triangle', 'square']
+        type : 'list',
+        choices : ['circle', 'triangle', 'square'],
     },
     {
         name : 'shapeColor',
